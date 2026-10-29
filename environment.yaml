@@ -1,0 +1,9 @@
+name: tracer-velocity
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - cadet=5.1.1
+  - pip
+  - pip:
+      - -r requirements.txt
